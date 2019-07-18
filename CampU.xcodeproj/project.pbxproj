@@ -3,18 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08857784779B46A00CABF64B /* Pods_CampU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446347628D15F182825F6282 /* Pods_CampU.framework */; };
+		6E281F7722E0AB7C008187E6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E281F7622E0AB7C008187E6 /* Colors.swift */; };
+		6E281F7922E0B1D6008187E6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E281F7822E0B1D6008187E6 /* LoginController.swift */; };
+		6EB4256922E09E420067CB55 /* LandingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4256822E09E420067CB55 /* LandingController.swift */; };
+		6EB4257522E0A3FE0067CB55 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4256B22E0A3FC0067CB55 /* Rubik-Black.ttf */; };
+		6EB4257622E0A3FE0067CB55 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4256C22E0A3FD0067CB55 /* Rubik-Bold.ttf */; };
+		6EB4257722E0A3FE0067CB55 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4256D22E0A3FD0067CB55 /* Rubik-BoldItalic.ttf */; };
+		6EB4257822E0A3FE0067CB55 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4256E22E0A3FD0067CB55 /* Rubik-Italic.ttf */; };
+		6EB4257922E0A3FE0067CB55 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4256F22E0A3FD0067CB55 /* Rubik-LightItalic.ttf */; };
+		6EB4257A22E0A3FE0067CB55 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4257022E0A3FD0067CB55 /* Rubik-MediumItalic.ttf */; };
+		6EB4257B22E0A3FE0067CB55 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4257122E0A3FE0067CB55 /* Rubik-Medium.ttf */; };
+		6EB4257C22E0A3FE0067CB55 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4257222E0A3FE0067CB55 /* Rubik-Light.ttf */; };
+		6EB4257D22E0A3FE0067CB55 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4257322E0A3FE0067CB55 /* Rubik-Regular.ttf */; };
+		6EB4257E22E0A3FE0067CB55 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4257422E0A3FE0067CB55 /* Rubik-BlackItalic.ttf */; };
 		6EC2F20022E09B82004728BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC2F1FF22E09B82004728BF /* AppDelegate.swift */; };
-		6EC2F20222E09B82004728BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC2F20122E09B82004728BF /* ViewController.swift */; };
 		6EC2F20522E09B82004728BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC2F20322E09B82004728BF /* Main.storyboard */; };
 		6EC2F20822E09B82004728BF /* CampU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EC2F20622E09B82004728BF /* CampU.xcdatamodeld */; };
 		6EC2F20A22E09B84004728BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC2F20922E09B84004728BF /* Assets.xcassets */; };
 		6EC2F20D22E09B84004728BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC2F20B22E09B84004728BF /* LaunchScreen.storyboard */; };
 		6EC2F21822E09B84004728BF /* CampUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC2F21722E09B84004728BF /* CampUTests.swift */; };
 		6EC2F22322E09B84004728BF /* CampUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC2F22222E09B84004728BF /* CampUUITests.swift */; };
+		6EC2F23122E09BB7004728BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EC2F23022E09BB7004728BF /* GoogleService-Info.plist */; };
+		7EEB602303899EAA04BC0678 /* Pods_CampUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67DE08D88320C5205445A10 /* Pods_CampUTests.framework */; };
+		E241496EBFAFD1612E3D7D36 /* Pods_CampUUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A506A3420B2B62BAA147FCA7 /* Pods_CampUUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +51,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B24DDADDE8BEEC89E562DA6 /* Pods-CampU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampU.debug.xcconfig"; path = "Target Support Files/Pods-CampU/Pods-CampU.debug.xcconfig"; sourceTree = "<group>"; };
+		2C1B2C95CAB5498D186DFD8C /* Pods-CampU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampU.release.xcconfig"; path = "Target Support Files/Pods-CampU/Pods-CampU.release.xcconfig"; sourceTree = "<group>"; };
+		446347628D15F182825F6282 /* Pods_CampU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E281F7622E0AB7C008187E6 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6E281F7822E0B1D6008187E6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		6EB4256822E09E420067CB55 /* LandingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingController.swift; sourceTree = "<group>"; };
+		6EB4256B22E0A3FC0067CB55 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		6EB4256C22E0A3FD0067CB55 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		6EB4256D22E0A3FD0067CB55 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6EB4256E22E0A3FD0067CB55 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		6EB4256F22E0A3FD0067CB55 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		6EB4257022E0A3FD0067CB55 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6EB4257122E0A3FE0067CB55 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		6EB4257222E0A3FE0067CB55 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		6EB4257322E0A3FE0067CB55 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		6EB4257422E0A3FE0067CB55 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
 		6EC2F1FC22E09B82004728BF /* CampU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC2F1FF22E09B82004728BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EC2F20122E09B82004728BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6EC2F20422E09B82004728BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EC2F20722E09B82004728BF /* CampU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CampU.xcdatamodel; sourceTree = "<group>"; };
 		6EC2F20922E09B84004728BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +80,13 @@
 		6EC2F21E22E09B84004728BF /* CampUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC2F22222E09B84004728BF /* CampUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampUUITests.swift; sourceTree = "<group>"; };
 		6EC2F22422E09B84004728BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC2F23022E09BB7004728BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6EF6CA1A1A316CFDB76652A1 /* Pods-CampUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampUTests.release.xcconfig"; path = "Target Support Files/Pods-CampUTests/Pods-CampUTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F00BF5158425E809E91DA8C /* Pods-CampUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampUUITests.release.xcconfig"; path = "Target Support Files/Pods-CampUUITests/Pods-CampUUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8CCB63A51F83FA69B84F29BB /* Pods-CampUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampUUITests.debug.xcconfig"; path = "Target Support Files/Pods-CampUUITests/Pods-CampUUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A506A3420B2B62BAA147FCA7 /* Pods_CampUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67DE08D88320C5205445A10 /* Pods_CampUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3CCF1AAA724F5F20CAAE85 /* Pods-CampUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampUTests.debug.xcconfig"; path = "Target Support Files/Pods-CampUTests/Pods-CampUTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08857784779B46A00CABF64B /* Pods_CampU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EEB602303899EAA04BC0678 /* Pods_CampUTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E241496EBFAFD1612E3D7D36 /* Pods_CampUUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EB4255F22E09D8A0067CB55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4256A22E0A3DF0067CB55 /* Fonts */,
+				6EC2F20922E09B84004728BF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6EB4256022E09DAE0067CB55 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4256822E09E420067CB55 /* LandingController.swift */,
+				6E281F7822E0B1D6008187E6 /* LoginController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6EB4256122E09DB40067CB55 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6EB4256322E09DBF0067CB55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EB4256422E09DC50067CB55 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6EB4256522E09DCC0067CB55 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6EC2F20322E09B82004728BF /* Main.storyboard */,
+				6EC2F20B22E09B84004728BF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6EB4256622E09DD20067CB55 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				6EC2F23022E09BB7004728BF /* GoogleService-Info.plist */,
+				6E281F7622E0AB7C008187E6 /* Colors.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		6EB4256722E09DD80067CB55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EB4256A22E0A3DF0067CB55 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4256B22E0A3FC0067CB55 /* Rubik-Black.ttf */,
+				6EB4257422E0A3FE0067CB55 /* Rubik-BlackItalic.ttf */,
+				6EB4256C22E0A3FD0067CB55 /* Rubik-Bold.ttf */,
+				6EB4256D22E0A3FD0067CB55 /* Rubik-BoldItalic.ttf */,
+				6EB4256E22E0A3FD0067CB55 /* Rubik-Italic.ttf */,
+				6EB4257222E0A3FE0067CB55 /* Rubik-Light.ttf */,
+				6EB4256F22E0A3FD0067CB55 /* Rubik-LightItalic.ttf */,
+				6EB4257122E0A3FE0067CB55 /* Rubik-Medium.ttf */,
+				6EB4257022E0A3FD0067CB55 /* Rubik-MediumItalic.ttf */,
+				6EB4257322E0A3FE0067CB55 /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		6EC2F1F322E09B82004728BF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +205,8 @@
 				6EC2F21622E09B84004728BF /* CampUTests */,
 				6EC2F22122E09B84004728BF /* CampUUITests */,
 				6EC2F1FD22E09B82004728BF /* Products */,
+				A3102CFC29D95EA14DDF39D0 /* Pods */,
+				DEAF8A9B389A2F34E21D150B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +223,15 @@
 		6EC2F1FE22E09B82004728BF /* CampU */ = {
 			isa = PBXGroup;
 			children = (
+				6EB4256722E09DD80067CB55 /* Views */,
+				6EB4256622E09DD20067CB55 /* Supporting */,
+				6EB4256522E09DCC0067CB55 /* Storyboards */,
+				6EB4256422E09DC50067CB55 /* Services */,
+				6EB4256322E09DBF0067CB55 /* Models */,
+				6EB4256122E09DB40067CB55 /* Extensions */,
+				6EB4256022E09DAE0067CB55 /* Controllers */,
+				6EB4255F22E09D8A0067CB55 /* Resources */,
 				6EC2F1FF22E09B82004728BF /* AppDelegate.swift */,
-				6EC2F20122E09B82004728BF /* ViewController.swift */,
-				6EC2F20322E09B82004728BF /* Main.storyboard */,
-				6EC2F20922E09B84004728BF /* Assets.xcassets */,
-				6EC2F20B22E09B84004728BF /* LaunchScreen.storyboard */,
 				6EC2F20E22E09B84004728BF /* Info.plist */,
 				6EC2F20622E09B82004728BF /* CampU.xcdatamodeld */,
 			);
@@ -128,6 +256,29 @@
 			path = CampUUITests;
 			sourceTree = "<group>";
 		};
+		A3102CFC29D95EA14DDF39D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B24DDADDE8BEEC89E562DA6 /* Pods-CampU.debug.xcconfig */,
+				2C1B2C95CAB5498D186DFD8C /* Pods-CampU.release.xcconfig */,
+				DE3CCF1AAA724F5F20CAAE85 /* Pods-CampUTests.debug.xcconfig */,
+				6EF6CA1A1A316CFDB76652A1 /* Pods-CampUTests.release.xcconfig */,
+				8CCB63A51F83FA69B84F29BB /* Pods-CampUUITests.debug.xcconfig */,
+				7F00BF5158425E809E91DA8C /* Pods-CampUUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DEAF8A9B389A2F34E21D150B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				446347628D15F182825F6282 /* Pods_CampU.framework */,
+				C67DE08D88320C5205445A10 /* Pods_CampUTests.framework */,
+				A506A3420B2B62BAA147FCA7 /* Pods_CampUUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EC2F22722E09B84004728BF /* Build configuration list for PBXNativeTarget "CampU" */;
 			buildPhases = (
+				88D702E0D50B6B9F8792BA82 /* [CP] Check Pods Manifest.lock */,
 				6EC2F1F822E09B82004728BF /* Sources */,
 				6EC2F1F922E09B82004728BF /* Frameworks */,
 				6EC2F1FA22E09B82004728BF /* Resources */,
+				2A32B6698CAFDCF774A5DFA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EC2F22A22E09B84004728BF /* Build configuration list for PBXNativeTarget "CampUTests" */;
 			buildPhases = (
+				541892BB612D555C627F0EDF /* [CP] Check Pods Manifest.lock */,
 				6EC2F20F22E09B84004728BF /* Sources */,
 				6EC2F21022E09B84004728BF /* Frameworks */,
 				6EC2F21122E09B84004728BF /* Resources */,
@@ -170,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EC2F22D22E09B84004728BF /* Build configuration list for PBXNativeTarget "CampUUITests" */;
 			buildPhases = (
+				C07A89D43D5E0E54E15E722A /* [CP] Check Pods Manifest.lock */,
 				6EC2F21A22E09B84004728BF /* Sources */,
 				6EC2F21B22E09B84004728BF /* Frameworks */,
 				6EC2F21C22E09B84004728BF /* Resources */,
@@ -233,8 +388,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EC2F20D22E09B84004728BF /* LaunchScreen.storyboard in Resources */,
+				6EB4257C22E0A3FE0067CB55 /* Rubik-Light.ttf in Resources */,
+				6EB4257622E0A3FE0067CB55 /* Rubik-Bold.ttf in Resources */,
 				6EC2F20A22E09B84004728BF /* Assets.xcassets in Resources */,
+				6EB4257E22E0A3FE0067CB55 /* Rubik-BlackItalic.ttf in Resources */,
+				6EB4257922E0A3FE0067CB55 /* Rubik-LightItalic.ttf in Resources */,
 				6EC2F20522E09B82004728BF /* Main.storyboard in Resources */,
+				6EB4257822E0A3FE0067CB55 /* Rubik-Italic.ttf in Resources */,
+				6EB4257522E0A3FE0067CB55 /* Rubik-Black.ttf in Resources */,
+				6EB4257A22E0A3FE0067CB55 /* Rubik-MediumItalic.ttf in Resources */,
+				6EB4257722E0A3FE0067CB55 /* Rubik-BoldItalic.ttf in Resources */,
+				6EB4257D22E0A3FE0067CB55 /* Rubik-Regular.ttf in Resources */,
+				6EB4257B22E0A3FE0067CB55 /* Rubik-Medium.ttf in Resources */,
+				6EC2F23122E09BB7004728BF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +420,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A32B6698CAFDCF774A5DFA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampU/Pods-CampU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampU/Pods-CampU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampU/Pods-CampU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		541892BB612D555C627F0EDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampUTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88D702E0D50B6B9F8792BA82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C07A89D43D5E0E54E15E722A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampUUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6EC2F1F822E09B82004728BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EC2F20222E09B82004728BF /* ViewController.swift in Sources */,
+				6EB4256922E09E420067CB55 /* LandingController.swift in Sources */,
+				6E281F7722E0AB7C008187E6 /* Colors.swift in Sources */,
 				6EC2F20022E09B82004728BF /* AppDelegate.swift in Sources */,
 				6EC2F20822E09B82004728BF /* CampU.xcdatamodeld in Sources */,
+				6E281F7922E0B1D6008187E6 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +688,7 @@
 		};
 		6EC2F22822E09B84004728BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B24DDADDE8BEEC89E562DA6 /* Pods-CampU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +707,7 @@
 		};
 		6EC2F22922E09B84004728BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1B2C95CAB5498D186DFD8C /* Pods-CampU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +726,7 @@
 		};
 		6EC2F22B22E09B84004728BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3CCF1AAA724F5F20CAAE85 /* Pods-CampUTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +748,7 @@
 		};
 		6EC2F22C22E09B84004728BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF6CA1A1A316CFDB76652A1 /* Pods-CampUTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +770,7 @@
 		};
 		6EC2F22E22E09B84004728BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCB63A51F83FA69B84F29BB /* Pods-CampUUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +791,7 @@
 		};
 		6EC2F22F22E09B84004728BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F00BF5158425E809E91DA8C /* Pods-CampUUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
