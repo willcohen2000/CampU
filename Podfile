@@ -11,6 +11,7 @@ target 'CampU' do
 	pod 'Firebase/Auth', '4.8.0'
 	pod 'Firebase/Database', '4.8.0'
 	pod 'Firebase/Storage', '4.8.0'
+	pod 'ABVideoRangeSlider'
 
   target 'CampUTests' do
     inherit! :search_paths

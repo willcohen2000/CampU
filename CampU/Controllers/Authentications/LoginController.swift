@@ -27,5 +27,29 @@ class LoginController: UIViewController {
         userInformationHolderView.layer.cornerRadius =  5.0;
     }
    
-
+    @IBAction func logInButtonPressed(_ sender: Any) {
+        guard let userEmail = emailTextField.text else {
+            return;
+        }
+        guard let userPassword = passwordTextField.text else {
+            return;
+        }
+        
+        AuthenticationService.logIn(userEmail: userEmail, userPassword: userPassword) { (success) in
+            if (success == "SUCCESS") {
+                self.performSegue(withIdentifier: "toMainSegue", sender: nil);
+            } else {
+                print("@willcohen handle error")
+            }
+        }
+    }
+    
+    @IBAction func forgotPasswordButtonPressed(_ sender: Any) {
+        
+    }
+    
+    @IBAction func backButtonPressed(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil);
+    }
+    
 }

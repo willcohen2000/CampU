@@ -19,18 +19,18 @@
 	<key>STORAGE_BUCKET</key>
 	<string>camp-38672.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:724912391977:ios:02940b5c1a7b83a7</string>
 	<key>DATABASE_URL</key>
-	<string>https://camp-38672.firebaseio.com</string>
+	<string>https://camp-38672.firebaseio.com/</string>
 </dict>
 </plist>

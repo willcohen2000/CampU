@@ -8,8 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		08857784779B46A00CABF64B /* Pods_CampU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446347628D15F182825F6282 /* Pods_CampU.framework */; };
+		6E1C80DA22E1E93E00C768E5 /* Database+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C80D922E1E93E00C768E5 /* Database+Service.swift */; };
+		6E1C80DC22E1E94900C768E5 /* Authentication+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C80DB22E1E94900C768E5 /* Authentication+Service.swift */; };
+		6E1C80DE22E1F96100C768E5 /* CompletedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C80DD22E1F96100C768E5 /* CompletedUser.swift */; };
+		6E1C80E222E205B000C768E5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C80E122E205B000C768E5 /* Home.storyboard */; };
+		6E1C80E422E206B600C768E5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C80E322E206B600C768E5 /* User.swift */; };
+		6E1C80E922E2080200C768E5 /* HomeFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C80E822E2080200C768E5 /* HomeFeedController.swift */; };
+		6E1C80EB22E2222B00C768E5 /* VideoFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C80EA22E2222B00C768E5 /* VideoFeedCell.swift */; };
+		6E26028A22EB3C440093EF27 /* RecordVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26028922EB3C440093EF27 /* RecordVideoController.swift */; };
+		6E26028C22EB55530093EF27 /* EditVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26028B22EB55530093EF27 /* EditVideoViewController.swift */; };
 		6E281F7722E0AB7C008187E6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E281F7622E0AB7C008187E6 /* Colors.swift */; };
 		6E281F7922E0B1D6008187E6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E281F7822E0B1D6008187E6 /* LoginController.swift */; };
+		6E6C1E4622E0B88300CBF3BE /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6C1E4522E0B88300CBF3BE /* SignupController.swift */; };
+		6E6C1E4822E0BEC700CBF3BE /* userInformationOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6C1E4722E0BEC700CBF3BE /* userInformationOneController.swift */; };
+		6E6C1E4A22E0C77B00CBF3BE /* UserInformationTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6C1E4922E0C77B00CBF3BE /* UserInformationTwoController.swift */; };
 		6EB4256922E09E420067CB55 /* LandingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4256822E09E420067CB55 /* LandingController.swift */; };
 		6EB4257522E0A3FE0067CB55 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4256B22E0A3FC0067CB55 /* Rubik-Black.ttf */; };
 		6EB4257622E0A3FE0067CB55 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4256C22E0A3FD0067CB55 /* Rubik-Bold.ttf */; };
@@ -54,8 +66,20 @@
 		0B24DDADDE8BEEC89E562DA6 /* Pods-CampU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampU.debug.xcconfig"; path = "Target Support Files/Pods-CampU/Pods-CampU.debug.xcconfig"; sourceTree = "<group>"; };
 		2C1B2C95CAB5498D186DFD8C /* Pods-CampU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampU.release.xcconfig"; path = "Target Support Files/Pods-CampU/Pods-CampU.release.xcconfig"; sourceTree = "<group>"; };
 		446347628D15F182825F6282 /* Pods_CampU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1C80D922E1E93E00C768E5 /* Database+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Database+Service.swift"; sourceTree = "<group>"; };
+		6E1C80DB22E1E94900C768E5 /* Authentication+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Authentication+Service.swift"; sourceTree = "<group>"; };
+		6E1C80DD22E1F96100C768E5 /* CompletedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedUser.swift; sourceTree = "<group>"; };
+		6E1C80E122E205B000C768E5 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		6E1C80E322E206B600C768E5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6E1C80E822E2080200C768E5 /* HomeFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedController.swift; sourceTree = "<group>"; };
+		6E1C80EA22E2222B00C768E5 /* VideoFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedCell.swift; sourceTree = "<group>"; };
+		6E26028922EB3C440093EF27 /* RecordVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoController.swift; sourceTree = "<group>"; };
+		6E26028B22EB55530093EF27 /* EditVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVideoViewController.swift; sourceTree = "<group>"; };
 		6E281F7622E0AB7C008187E6 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		6E281F7822E0B1D6008187E6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		6E6C1E4522E0B88300CBF3BE /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		6E6C1E4722E0BEC700CBF3BE /* userInformationOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInformationOneController.swift; sourceTree = "<group>"; };
+		6E6C1E4922E0C77B00CBF3BE /* UserInformationTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationTwoController.swift; sourceTree = "<group>"; };
 		6EB4256822E09E420067CB55 /* LandingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingController.swift; sourceTree = "<group>"; };
 		6EB4256B22E0A3FC0067CB55 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
 		6EB4256C22E0A3FD0067CB55 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
@@ -117,6 +141,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E1C80E522E207B400C768E5 /* Authentications */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4256822E09E420067CB55 /* LandingController.swift */,
+				6E281F7822E0B1D6008187E6 /* LoginController.swift */,
+				6E6C1E4522E0B88300CBF3BE /* SignupController.swift */,
+				6E6C1E4722E0BEC700CBF3BE /* userInformationOneController.swift */,
+				6E6C1E4922E0C77B00CBF3BE /* UserInformationTwoController.swift */,
+			);
+			path = Authentications;
+			sourceTree = "<group>";
+		};
+		6E1C80E722E207EE00C768E5 /* Home Feed */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C80E822E2080200C768E5 /* HomeFeedController.swift */,
+			);
+			path = "Home Feed";
+			sourceTree = "<group>";
+		};
+		6E26028822EB3C270093EF27 /* Upload Videos */ = {
+			isa = PBXGroup;
+			children = (
+				6E26028922EB3C440093EF27 /* RecordVideoController.swift */,
+				6E26028B22EB55530093EF27 /* EditVideoViewController.swift */,
+			);
+			path = "Upload Videos";
+			sourceTree = "<group>";
+		};
 		6EB4255F22E09D8A0067CB55 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,8 +182,9 @@
 		6EB4256022E09DAE0067CB55 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				6EB4256822E09E420067CB55 /* LandingController.swift */,
-				6E281F7822E0B1D6008187E6 /* LoginController.swift */,
+				6E26028822EB3C270093EF27 /* Upload Videos */,
+				6E1C80E722E207EE00C768E5 /* Home Feed */,
+				6E1C80E522E207B400C768E5 /* Authentications */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -145,6 +199,7 @@
 		6EB4256322E09DBF0067CB55 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6E1C80DD22E1F96100C768E5 /* CompletedUser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +207,8 @@
 		6EB4256422E09DC50067CB55 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				6E1C80D922E1E93E00C768E5 /* Database+Service.swift */,
+				6E1C80DB22E1E94900C768E5 /* Authentication+Service.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -161,6 +218,7 @@
 			children = (
 				6EC2F20322E09B82004728BF /* Main.storyboard */,
 				6EC2F20B22E09B84004728BF /* LaunchScreen.storyboard */,
+				6E1C80E122E205B000C768E5 /* Home.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -170,6 +228,7 @@
 			children = (
 				6EC2F23022E09BB7004728BF /* GoogleService-Info.plist */,
 				6E281F7622E0AB7C008187E6 /* Colors.swift */,
+				6E1C80E322E206B600C768E5 /* User.swift */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -177,6 +236,7 @@
 		6EB4256722E09DD80067CB55 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6E1C80EA22E2222B00C768E5 /* VideoFeedCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -393,6 +453,7 @@
 				6EC2F20A22E09B84004728BF /* Assets.xcassets in Resources */,
 				6EB4257E22E0A3FE0067CB55 /* Rubik-BlackItalic.ttf in Resources */,
 				6EB4257922E0A3FE0067CB55 /* Rubik-LightItalic.ttf in Resources */,
+				6E1C80E222E205B000C768E5 /* Home.storyboard in Resources */,
 				6EC2F20522E09B82004728BF /* Main.storyboard in Resources */,
 				6EB4257822E0A3FE0067CB55 /* Rubik-Italic.ttf in Resources */,
 				6EB4257522E0A3FE0067CB55 /* Rubik-Black.ttf in Resources */,
@@ -511,11 +572,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E6C1E4A22E0C77B00CBF3BE /* UserInformationTwoController.swift in Sources */,
 				6EB4256922E09E420067CB55 /* LandingController.swift in Sources */,
+				6E26028A22EB3C440093EF27 /* RecordVideoController.swift in Sources */,
+				6E1C80DA22E1E93E00C768E5 /* Database+Service.swift in Sources */,
+				6E26028C22EB55530093EF27 /* EditVideoViewController.swift in Sources */,
 				6E281F7722E0AB7C008187E6 /* Colors.swift in Sources */,
+				6E1C80E922E2080200C768E5 /* HomeFeedController.swift in Sources */,
 				6EC2F20022E09B82004728BF /* AppDelegate.swift in Sources */,
+				6E6C1E4622E0B88300CBF3BE /* SignupController.swift in Sources */,
+				6E1C80EB22E2222B00C768E5 /* VideoFeedCell.swift in Sources */,
 				6EC2F20822E09B82004728BF /* CampU.xcdatamodeld in Sources */,
 				6E281F7922E0B1D6008187E6 /* LoginController.swift in Sources */,
+				6E1C80E422E206B600C768E5 /* User.swift in Sources */,
+				6E1C80DE22E1F96100C768E5 /* CompletedUser.swift in Sources */,
+				6E6C1E4822E0BEC700CBF3BE /* userInformationOneController.swift in Sources */,
+				6E1C80DC22E1E94900C768E5 /* Authentication+Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
